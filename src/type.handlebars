@@ -1,0 +1,12 @@
+{{#ifDirective this "entity" }}
+/* tslint:disable */
+
+import { Table } from 'sequelize-typescript';
+import { {{ name }}DB } from './types/{{ toCamelCase name }}.type';
+
+@Table({
+  tableName: '{{#if tableName}}{{tableName}}{{else}}{{ toCamelCase ../name }}{{/if}}',
+  timestamps: true
+})
+export class {{ name }}Model extends {{ name }}DB<{{ name }}Model> {}
+{{/ifDirective}}

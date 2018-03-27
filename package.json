@@ -1,0 +1,19 @@
+{
+  "name": "graphql-codegen-model",
+  "version": "1.0.0",
+  "description": "Sequelize-typescript models generators for GraphQL Codegen.",
+  "main": "src/index.js",
+  "author": "Jens Kolberg <jens.kolberg@gamesdynamics.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GD-Aichi/graphql-codegen-model.git"
+  },
+  "peerDependencies": {},
+  "dependencies": {},
+  "devDependencies": {
+    "babel-eslint": "^8.2.2",
+    "eslint": "^4.18.2",
+    "prettier": "^1.11.1"
+  }
+}
